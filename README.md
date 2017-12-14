@@ -27,9 +27,9 @@ docker run --detach --privileged --volume=/sys/fs/cgroup:/sys/fs/cgroup:ro brent
 4. Use Ansible inside the container
 ```
 docker exec --tty [container_id] env TERM=xterm ansible --version
-
-or 
-
+```  
+&nbsp;&nbsp;&nbsp;&nbsp; or 
+```
 docker exec --tty [container_id] env TERM=xterm ansible-playbook /path/to/ansible/playbook.yml --syntax-check
 ```  
 
