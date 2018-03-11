@@ -1,6 +1,6 @@
 # Ubuntu 17.10 (Artful Aardvark) Ansible Test Image
 
-[![Docker Automated build](https://img.shields.io/docker/automated/brentwg/docker-ubuntu1710-ansible.svg?maxAge=2592000)](https://hub.docker.com/r/brentwg/docker-ubuntu1710-ansible/)
+[![Docker Automated build](https://img.shields.io/docker/automated/brentwg/docker-ubuntu1710-ansible.svg?maxAge=2592000)](https://hub.docker.com/r/brentwg/docker-ubuntu1710-ansible/) [![Build Status](https://travis-ci.org/brentwg/docker-ubuntu1710-ansible.svg?branch=master)](https://travis-ci.org/brentwg/docker-ubuntu1710-ansible)
 
 Ubuntu 17.10 (Artful Aardvark) Docker container for Ansible playbook and role testing. Everything which follows borrows *extensively* from the wise examples of Jeff Geerling. He is an amazing teacher. Look him up someday.
 
